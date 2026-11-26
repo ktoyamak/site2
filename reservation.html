@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>体験・見学予約 | Workout Fit</title>
+    <meta name="description" content="Workout Fitの体験・見学予約ページです。施設見学や体験のお申し込みを受け付けています。">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reservation.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <a href="index.html"><img src="images/header_logo.png" alt="Workout Fit" width="216" height="42"></a>
+      </div>
+      <nav class="gnav">
+        <ul>
+          <li><a href="guide.html">入会のご案内</a></li>
+          <li><a href="program.html">プログラム</a></li>
+          <li><a class="gnav-reservation" href="reservation.html">体験・見学予約</a></li>
+        </ul>
+      </nav>
+      <div class="gnav-sp">
+        <a href="reservation.html"><span>体験・見学予約</span></a>
+        <button type="button"><span>MENU</span></button>
+      </div>
+    </header>
+    <main class="container">
+      <article>
+        <h1 class="heading">体験・見学予約</h1>
+        <section class="mainsection">
+          <h2>Workout Fitを体験！</h2>
+          <p class="mainlead">ご入会前に施設見学やご体験ができます。お気軽にお問い合わせください。</p>
+          <p class="mainlead">『キッズスイミング教室』の見学をご希望の方は、以下からご予約ください。<br>
+            <a href="kidswim.html#kidswim-reserve">キッズスイミング教室の見学予約はこちら</a></p>
+        </section>
+        <section class="reservation">
+          <form class="form" action="#" id="form">
+            <p class="form-item">
+              <label for="onamae">お名前</label>
+              <input type="text" id="onamae" name="onamae">
+            </p>
+            <p class="form-item">
+              <label for="furigana">フリガナ</label>
+              <input type="text" id="furigana" name="furigana">
+            </p>
+            <p class="form-item">
+              <label for="tel">電話番号</label>
+              <input type="tel" id="tel" name="tel">
+            </p>
+            <p class="form-item">
+              <label for="email">メールアドレス</label>
+              <input type="email" id="email" name="email">
+            </p>
+            <p class="form-item">
+              <label for="bikou">備考</label>
+              <textarea id="bikou" name="bikou" cols="30" rows="10"></textarea>
+            </p>
+            <p class="form-submit">
+              <button type="submit">送信する</button>
+            </p>
+          </form>
+        </section>
+      </article>
+    </main>
+    <footer class="footer">
+      <address>
+        <span>TEL</span>
+        <a href="tel:0120-000-0000">0120-000-0000</a>
+      </address>
+      <a class="footer-nav" href="reservation.html">体験・見学予約</a>
+      <div class="footer-logo">
+        <img src="images/footer_logo.png" alt="Workout Fit" width="216" height="42">
+      </div>
+      <div class="footer-copyright"><small>20XX &copy; Workout Fit ALL RIGHTS RESERVED.</small></div>
+    </footer>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+
+</html>
